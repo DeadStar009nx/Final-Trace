@@ -1,6 +1,6 @@
-# Final-Trace — Expedition 33 Research Toolkit
+# Final-Trace —Research Toolkit
 
-This repository contains an Expedition 33 research and training toolkit. It provides a collection of interconnected modules, puzzles, utilities, and tests intended for learning, demonstrations, and exercise design.
+This repository contains an research and training toolkit. It provides a collection of interconnected modules, puzzles, utilities, and tests intended for learning, demonstrations, and exercise design.
 
 
 Contents (high level):
