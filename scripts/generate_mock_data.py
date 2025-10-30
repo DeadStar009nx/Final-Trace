@@ -7,6 +7,7 @@ import json
 from core.engine import PuzzleEngine
 from puzzles.registry import registry
 
+# Generating sample data is important
 
 def generate_sample_run():
     engine = PuzzleEngine(registry)
