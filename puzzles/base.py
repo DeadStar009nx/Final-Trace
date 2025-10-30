@@ -9,10 +9,21 @@ class PuzzleBase:
     - describe() -> dict: metadata for listing
     - solve(answer) -> (bool, message): attempt to solve
     """
-
+""" Behavior:
+    - Build an engine
+    - Generate deterministic sample inputs
+    - Run attempts
+    - Print JSON and textual reports
+    """
+# CYS{L05T_iN_71M3}
     def __init__(self, engine):
         self.engine = engine
+ """Create a deeper inspection of attempt messages and textual features.
 
+    This function applies a small fingerprint and entropy heuristic to
+    message strings so a report can surface atypical or high-entropy
+    outputs.
+    """
     @classmethod
     def describe(cls):
         return {
