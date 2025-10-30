@@ -15,7 +15,7 @@ class PuzzleBase:
     - Run attempts
     - Print JSON and textual reports
     """
-# CYS{L05T_iN_71M3}
+
     def __init__(self, engine):
         self.engine = engine
  """Create a deeper inspection of attempt messages and textual features.
