@@ -3,18 +3,6 @@ from typing import Tuple, Optional
 
 
 class PuzzleBase:
-    """A puzzle implementation should subclass this.
-
-    Methods:
-    - describe() -> dict: metadata for listing
-    - solve(answer) -> (bool, message): attempt to solve
-    """
-""" Behavior:
-    - Build an engine
-    - Generate deterministic sample inputs
-    - Run attempts
-    - Print JSON and textual reports
-    """
 
     def __init__(self, engine):
         self.engine = engine
